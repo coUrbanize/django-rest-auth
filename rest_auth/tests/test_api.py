@@ -5,7 +5,7 @@ from django.core import mail
 from django.test.utils import override_settings
 from django.utils.encoding import force_text
 
-from rest_framework import status
+from rest_framework_3 import status
 
 from .test_base import BaseAPITestCase
 

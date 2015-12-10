@@ -29,7 +29,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'Django>=1.7.0',
-        'djangorestframework>=3.1.0',
+        # 'djangorestframework>=3.1.0',
         'six>=1.9.0',
     ],
     test_suite='runtests.runtests',

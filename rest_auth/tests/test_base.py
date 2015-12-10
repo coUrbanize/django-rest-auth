@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse
 from django.test.client import Client, MULTIPART_CONTENT
 from django.utils.encoding import force_text
 
-from rest_framework import status
+from rest_framework_3 import status
 
 
 class APIClient(Client):
