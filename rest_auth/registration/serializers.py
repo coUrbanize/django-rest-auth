@@ -1,7 +1,7 @@
 from django.http import HttpRequest
 from django.conf import settings
 
-from rest_framework import serializers
+from rest_framework_3 import serializers
 from requests.exceptions import HTTPError
 # Import is needed only if we are using social login, in which
 # case the allauth.socialaccount will be declared

@@ -6,9 +6,9 @@ from django.utils.http import urlsafe_base64_decode as uid_decoder
 from django.utils.translation import ugettext_lazy as _
 from django.utils.encoding import force_text
 
-from rest_framework import serializers, exceptions
-from rest_framework.authtoken.models import Token
-from rest_framework.exceptions import ValidationError
+from rest_framework_3 import serializers, exceptions
+from rest_framework_3.authtoken.models import Token
+from rest_framework_3.exceptions import ValidationError
 
 # Get the UserModel
 UserModel = get_user_model()

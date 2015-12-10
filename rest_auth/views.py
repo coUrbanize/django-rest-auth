@@ -2,13 +2,13 @@ from django.contrib.auth import login, logout
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 
-from rest_framework import status
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework.generics import GenericAPIView
-from rest_framework.permissions import IsAuthenticated, AllowAny
-from rest_framework.authtoken.models import Token
-from rest_framework.generics import RetrieveUpdateAPIView
+from rest_framework_3 import status
+from rest_framework_3.views import APIView
+from rest_framework_3.response import Response
+from rest_framework_3.generics import GenericAPIView
+from rest_framework_3.permissions import IsAuthenticated, AllowAny
+from rest_framework_3.authtoken.models import Token
+from rest_framework_3.generics import RetrieveUpdateAPIView
 
 from .app_settings import (
     TokenSerializer, UserDetailsSerializer, LoginSerializer,

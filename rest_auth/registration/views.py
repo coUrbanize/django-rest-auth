@@ -1,9 +1,9 @@
 from django.http import HttpRequest
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework.permissions import AllowAny
-from rest_framework import status
-from rest_framework.authtoken.models import Token
+from rest_framework_3.views import APIView
+from rest_framework_3.response import Response
+from rest_framework_3.permissions import AllowAny
+from rest_framework_3 import status
+from rest_framework_3.authtoken.models import Token
 
 from allauth.account.views import SignupView, ConfirmEmailView
 from allauth.account.utils import complete_signup

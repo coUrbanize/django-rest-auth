@@ -7,7 +7,7 @@ from allauth.socialaccount.models import SocialApp
 from allauth.socialaccount.providers.facebook.provider import GRAPH_API_URL
 import responses
 
-from rest_framework import status
+from rest_framework_3 import status
 
 from .test_base import BaseAPITestCase
 
